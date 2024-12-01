@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --offwhite:rgb(241, 241, 241);
+  }
+}
+
+html, body {
+  /* height: 100%; */
+  margin: 0;
+  /* background: linear-gradient(135deg, #003366, #00509e, #3b82f6);  */
+  background: var(--offwhite);
+  font-family: Verdana, Geneva, sans-serif;
+  color: black; /* White text color */
+}
